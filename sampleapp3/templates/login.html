@@ -1,0 +1,43 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <style>
+        body{
+            background-image : linear-gradient(purple,white);
+        }
+        .div1{
+            margin: 200px 250px;
+            background: blue;
+            text-align: center;
+            padding: 50px;
+             
+        }
+        div,h1,form{
+            padding: 5px;
+            margin: 20px;
+        }
+        .btn{
+            padding:20px;
+            margin: 30px;
+        }
+        
+    </style>
+    
+</head>
+<body>
+    <div class="div1">
+        <h1>Login Here</h1>
+        <form action="">
+            <input type="text"placeholder="username" class="in1"><br>
+            <input type="password" placeholder="password"><br>
+            <button class="btn">Login</button>
+        </form>
+    </div>
+</body>
+</html>
